@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Portföy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">MP</div>
+            <nav>
+                <ul>
+                    <li><a href="#anasayfa" class="active">Anasayfa</a></li>
+                    <li><a href="#hakkimda">Hakkımda</a></li>
+                    <li><a href="#calismalarim">Çalışmalarım</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section id="anasayfa" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Merhaba, ben <span>Ayşe Kaya</span></h1>
+                <p>Grafik Tasarımcı & UI/UX Uzmanı</p>
+                <div class="hero-buttons">
+                    <a href="#calismalarim" class="btn btn-primary">Portfolyomu Gör</a>
+                    <a href="#iletisim" class="btn btn-secondary">İletişime Geç</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hakkimda" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hakkımda</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://source.unsplash.com/random/400x600/?portrait,woman" alt="Ayşe Kaya">
+                </div>
+                <div class="about-text">
+                    <h3>5 yıllık deneyim</h3>
+                    <p>İstanbul'da yaşayan bir grafik tasarımcı ve UI/UX uzmanıyım. Marka kimliği, kullanıcı arayüzü tasarımı ve dijital varlıklar konusunda uzmanım.</p>
+                    <p>Yaratıcı çözümler üretmeyi ve kullanıcı deneyimini iyileştirmeyi seviyorum. Her projeye özgün bir yaklaşım getirerek müşterilerimin hedeflerine ulaşmalarına yardımcı oluyorum.</p>
+                    
+                    <div class="skills">
+                        <div class="skill-item">
+                            <span class="skill-name">UI/UX Tasarımı</span>
+                            <div class="skill-bar"><span style="width: 90%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Grafik Tasarım</span>
+                            <div class="skill-bar"><span style="width: 95%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Web Tasarımı</span>
+                            <div class="skill-bar"><span style="width: 85%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">İllüstrasyon</span>
+                            <div class="skill-bar"><span style="width: 80%"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="calismalarim" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Çalışmalarım</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+                <button class="filter-btn" data-filter="graphic">Grafik</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item ui">
+                    <img src="https://source.unsplash.com/random/600x400/?ui,design" alt="UI Tasarımı">
+                    <div class="portfolio-info">
+                        <h3>Mobil Uygulama UI</h3>
+                        <p>UI/UX Tasarımı</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item graphic">
+                    <img src="https://source.unsplash.com/random/600x400/?graphic,design" alt="Grafik Tasarım">
+                    <div class="portfolio-info">
+                        <h3>Marka Kimliği</h3>
+                        <p>Grafik Tasarım</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item web">
+                    <img src="https://source.unsplash.com/random/600x400/?web,design" alt="Web Tasarımı">
+                    <div class="portfolio-info">
+                        <h3>E-ticaret Web Sitesi</h3>
+                        <p>Web Tasarımı</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ui">
+                    <img src="https://source.unsplash.com/random/600x400/?app,design" alt="Uygulama Tasarımı">
+                    <div class="portfolio-info">
+                        <h3>Finans Uygulaması</h3>
+                        <p>UI/UX Tasarımı</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item graphic">
+                    <img src="https://source.unsplash.com/random/600x400/?poster,design" alt="Afiş Tasarımı">
+                    <div class="portfolio-info">
+                        <h3>Etkinlik Afişi</h3>
+                        <p>Grafik Tasarım</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item web">
+                    <img src="https://source.unsplash.com/random/600x400/?website,design" alt="Web Tasarımı">
+                    <div class="portfolio-info">
+                        <h3>Kurumsal Web Sitesi</h3>
+                        <p>Web Tasarımı</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Müşteri Yorumları</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <p>"Ayşe ile çalışmak harika bir deneyimdi. Markamızı tam olarak anlayıp, vizyonumuzu hayata geçirdi. Elde ettiğimiz sonuçlar beklentilerimizin üzerindeydi."</p>
+                        <div class="testimonial-author">
+                            <img src="https://source.unsplash.com/random/100x100/?portrait,man" alt="Ahmet Yılmaz">
+                            <div>
+                                <h4>Ahmet Yılmaz</h4>
+                                <p>Genel Müdür, TechSoft</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Web sitemizin yeniden tasarlanması gerekiyordu ve Ayşe tam da aradığımız kişiydi. Modern, kullanıcı dostu ve markamızı yansıtan bir tasarım oluşturdu."</p>
+                        <div class="testimonial-author">
+                            <img src="https://source.unsplash.com/random/100x100/?portrait,woman" alt="Zeynep Kaya">
+                            <div>
+                                <h4>Zeynep Kaya</h4>
+                                <p>Pazarlama Müdürü, GreenLife</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Ayşe'nin tasarım becerisi ve işe olan bağlılığı etkileyici. Mobil uygulamamız için oluşturduğu kullanıcı deneyimi sayesinde müşteri memnuniyetimiz arttı."</p>
+                        <div class="testimonial-author">
+                            <img src="https://source.unsplash.com/random/100x100/?portrait,man2" alt="Mehmet Demir">
+                            <div>
+                                <h4>Mehmet Demir</h4>
+                                <p>Kurucu, AppWorks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="iletisim" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>İletişim</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Adres</h3>
+                            <p>Levent, İstanbul, Türkiye</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>E-posta</h3>
+                            <p>info@aysekaya.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefon</h3>
+                            <p>+90 (212) 123 4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Adınız" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="E-posta Adresiniz" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Konu" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Mesajınız" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ayşe Kaya. Tüm Hakları Saklıdır.</p>
+            <div class="footer-links">
+                <a href="#">Gizlilik Politikası</a>
+                <a href="#">Kullanım Koşulları</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#anasayfa" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
